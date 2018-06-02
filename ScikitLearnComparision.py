@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[4]:
-
-
 # Import packages
 import numpy as np
 import pandas as pd
