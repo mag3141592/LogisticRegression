@@ -62,4 +62,3 @@ print(df)
 
 # Prints the final objective value
 print("Objectives:", "Beta_T = ", obj_fgd[-1], "Beta_* = ", mylogreg.obj(beta_star[0], X_Train, Y_Train, lambda_val))
-
