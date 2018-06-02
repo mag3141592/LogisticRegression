@@ -59,7 +59,7 @@ mis_fgd_train = mylogreg.misclassification(betas_fgd, X_Train, Y_Train)
 mis_gd_test = mylogreg.misclassification(betas_gd, X_Test, Y_Test)
 mis_fgd_test = mylogreg.misclassification(betas_fgd, X_Test, Y_Test)
 
-#Create a dataFrame
+# Create a dataFrame
 data = {'Algorithm':['Grad', 'Fast Grad'],
         'Train Misclassification':[mis_gd_train[-1], mis_fgd_train[-1]],
         'Test Misclassification':[mis_gd_test[-1], mis_fgd_test[-1]]} 
