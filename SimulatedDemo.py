@@ -1,4 +1,3 @@
-
 # Import packages
 import random
 import numpy as np
