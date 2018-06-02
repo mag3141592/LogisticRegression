@@ -15,8 +15,9 @@ Users can use their own data, but labels should be scaled to -1 or +1.
 ScikitLearnComparison.py compares the results of my L2-regularized logistic regression with scikit-learn's.
 
 ## Needed Packages
-  > import random
-  > import numpy as np
-  > import pandas as pd
-  > import matplotlib.pyplot as plt 
-  > import sklearn import preprocessing
+import random<br/>
+import numpy as np<br/>
+import pandas as pd<br/>
+import matplotlib.pyplot as plt<br/>
+import sklearn import preprocessing<br/>
+from sklearn.linear_model import LogisticRegression
