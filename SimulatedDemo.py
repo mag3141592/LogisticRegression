@@ -63,4 +63,3 @@ print(df)
 # Plots Misclassification Error vs. Iterations for fast gradient descent
 mylogreg.plotresults(plot1 = mis_fgd_train, lambda_val = lambda_val, plottitle = 'Train Misclassification vs. Iterations', label1 = 'fastgradalgo:')
 mylogreg.plotresults(plot1 = mis_fgd_test, lambda_val = lambda_val, plottitle = 'Test Misclassification vs. Iterations', label1 = 'fastgradalgo:')
-
