@@ -1,9 +1,4 @@
 
-# coding: utf-8
-
-# In[1]:
-
-
 # Import packages
 import random
 import numpy as np
@@ -59,7 +54,7 @@ mis_fgd_train = mylogreg.misclassification(betas_fgd, X_Train, Y_Train)
 # Calculate the testing set misclassification over iterations
 mis_fgd_test = mylogreg.misclassification(betas_fgd, X_Test, Y_Test)
 
-#Create a dataFrame
+# Create a dataFrame
 data = {'Algorithm':['Fast Grad'],
         'Train Misclassification': [mis_fgd_train[-1]],
         'Test Misclassification':[mis_fgd_test[-1]]}
